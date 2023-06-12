@@ -1,0 +1,61 @@
+/* 
+sintaxis:
+
+selector {
+    propiedad: valor
+
+ }
+  */
+body {
+  background: #131418;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3rem;
+  /* Padding es para los margenes */
+  max-width: 1800px;
+}
+h1 {
+  color: darkorchid;
+  font-size: 3rem;
+  font-weight: 808;
+}
+h2 {
+  color: darkmagenta;
+}
+p {
+  color: whitesmoke;
+}
+hr {
+  border: 2px solid darkslateblue;
+  /* border: grosor de lineas */
+  max-width: 950px;
+}
+
+/*  - Para llamar a las clases creadas en html (vease linea 24 y 25 de index.html)
+=> "." (punto) 
+    - Para llamar a los ids en CSS => "#"
+    */
+
+.container {
+  /* "container" hace referencia a la "caja" que contiene el texto */
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 16px;
+  /* border-radius redondea los bordes */
+  margin: 20px 0;
+  width: fit-content;
+  /* fit-content ajusta el tamaño de la caja a lo que ocupe el texto */
+}
+/* Selectores */
+#selectorId {
+  color: darkorchid;
+}
+.selectorClase {
+  color: cadetblue;
+}
+h5 {
+  background-color: #8c54fb;
+}
+.titulo {
+  color: violet;
+}

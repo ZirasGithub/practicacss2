@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Se debe linkear el archivo para que el index reconozca al styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Practica css</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>PÁGINA ANTI BOBIA</h1>
+      </div>
+      <hr id="hr" />
+      <div>
+        <h2>Bobia del orto</h2>
+        <p>Iju</p>
+      </div>
+      <hr id="hr" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eaque
+        error, voluptate porro libero corrupti! Perferendis accusantium earum
+        qui autem! Nobis, dolore. Perferendis eos sit fuga corrupti, soluta
+        eaque numquam?
+      </p>
+      <hr />
+      <div class="container">
+        <p id="selectorId">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
+          nisi.
+        </p>
+      </div>
+      <!-- Clase minuto: 47:35 -->
+    </section>
+    <section>
+      <div>
+        <h2>Retomando clase</h2>
+      </div>
+
+      <!-- Selectores -->
+      <h2>Selector de ID:</h2>
+      <div class="code">#selectorId {color: #8c54fb}</div>
+
+      <div class="container">
+        <!-- Este class="container" es modificado por el .container que esta en styles.css, a pesar de que el p tenga el id="selectorId". El id modifica el contenido dentro del container. -->
+        <p id="selectorId">Bobia de mierda</p>
+      </div>
+
+      <hr class="hr" />
+
+      <h2>Selector de clase:</h2>
+      <div class="code">.selectorClase {color: #e11d48}</div>
+
+      <div class="container">
+        <!-- para escribir rapidamente p class, se puede utilizar la siguiente abreviación:
+        p.selectorClase -->
+        <p class="selectorClase">Bobia</p>
+      </div>
+
+      <div class="container">
+        <h5>Bobia</h5>
+      </div>
+    </section>
+    <section>
+      <hr />
+      <h1 class="titulo">Bobia 2</h1>
+      <p>test</p>
+    </section>
+  </body>
+</html>
